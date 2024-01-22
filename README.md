@@ -1,4 +1,4 @@
-# Kata: Sum of Array Singles : https://www.codewars.com/kata/59f11118a5e129e591000134
+# Kata: Sum of Array Singles - https://www.codewars.com/kata/59f11118a5e129e591000134
 
 ## Introducción
 Sum of Array Singles" ES un desafío de manipulación de arrays. 
