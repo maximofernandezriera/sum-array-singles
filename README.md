@@ -23,31 +23,31 @@ Se proporciona un array de números, donde algunos aparecen dos veces y otros un
 ## Código en Java
 
     public class SumOfArraySingles {
-    
-        public static int sumOfSingles(int[] array) {
-            int sum = 0;
-    
-            for (int i = 0; i < array.length; i++) {
-                boolean isSingle = true;
-    
-                for (int j = 0; j < array.length; j++) {
-                    if (i != j && array[i] == array[j]) {
-                        isSingle = false;
-                        break;
-                    }
-                }
-    
-                if (isSingle) {
-                    sum += array[i];
+
+    public static int sumOfSingles(int[] array) {
+        int sum = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            boolean isSingle = true;
+
+            for (int j = 0; j < array.length; j++) {
+                if (i != j && array[i] == array[j]) {
+                    isSingle = false;
+                    j = array.length; // Finaliza el bucle interno sin break
                 }
             }
-    
-            return sum;
+
+            if (isSingle) {
+                sum += array[i];
+            }
         }
-    
-        public static void main(String[] args) {
-            int[] exampleArray = {4, 5, 7, 5, 4, 8}; // Ejemplo de array
-            int result = sumOfSingles(exampleArray);
-            System.out.println("La suma de los números que aparecen una sola vez es: " + result);
-        }
+
+        return sum;
     }
+
+    public static void main(String[] args) {
+        int[] exampleArray = {4, 5, 7, 5, 4, 8}; // Ejemplo de array
+        int result = sumOfSingles(exampleArray);
+        System.out.println("La suma de los números que aparecen una sola vez es: " + result);
+    }
+}
