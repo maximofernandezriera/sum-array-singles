@@ -50,4 +50,5 @@ Se proporciona un array de números, donde algunos aparecen dos veces y otros un
         int result = sumOfSingles(exampleArray);
         System.out.println("La suma de los números que aparecen una sola vez es: " + result);
     }
-}
+    
+    }
