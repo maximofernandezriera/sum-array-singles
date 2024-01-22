@@ -33,7 +33,7 @@ Se proporciona un array de números, donde algunos aparecen dos veces y otros un
             for (int j = 0; j < array.length; j++) {
                 if (i != j && array[i] == array[j]) {
                     isSingle = false;
-                    j = array.length; // Finaliza el bucle interno sin break
+                    j = array.length; // Finaliza el bucle interno
                 }
             }
 
