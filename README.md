@@ -1,11 +1,11 @@
 # Kata: Sum of Array Singles - https://www.codewars.com/kata/59f11118a5e129e591000134
 
 ## Introducción
-Sum of Array Singles" ES un desafío de manipulación de arrays. 
+Sum of Array Singles es un desafío de manipulación de arrays. 
 
 # El objetivo es encontrar y sumar los números que aparecen una sola vez en un array.
 
-## Descripción del Problema
+## Descripción del problema
 Se proporciona un array de números, donde algunos aparecen dos veces y otros una sola vez. El objetivo es calcular la suma de los números que aparecen una sola vez.
 
 ## Pseudocódigo
@@ -20,7 +20,7 @@ Se proporciona un array de números, donde algunos aparecen dos veces y otros un
           devolver suma
       fin función
 
-## Código en Java
+## Código Java
 
     public class SumOfArraySingles {
 
